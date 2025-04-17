@@ -1,4 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .thumbnail {
+            width: 100px;
+            height: 100px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
 <body>
-Hello, World!
+
+    <h1>콘텐츠 목록</h1>
+    <div class="container">
+        <div class="content">
+            <div class="thumbnail">이미지</div>
+            <div>
+                <h2>내 소개</h2>
+                <p>나에 대한 간단한 소개.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="thumbnail">이미지</div>
+            <div>
+                <h2>성적 확인</h2>
+                <p>성적 확인 페이지로 이동.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="thumbnail">이미지</div>
+            <div>
+                <h2>기타 등등</h2>
+                <p>기타 다양한 콘텐츠.</p>
+            </div>
+        </div>
+    </div>
+
 </body>
+</html>
